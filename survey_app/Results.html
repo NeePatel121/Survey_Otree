@@ -1,0 +1,15 @@
+{{ block title }}
+    Survey Response
+{{ endblock }}
+
+{{ block content }}
+    <p> {{ player.Name }} == {{ player.Campus_ID }} </p>
+    <p> Excerise Per week  -> {{ player.Exercise }}  </p>
+    <p> Number of Days per week -> {{ player.Duration_exercise }} </p>
+    <p> Location -> {{ player.Place_exercise }}</p>
+    <p> Suitable Time -> {{ player.Time_exercise }}</p>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+{{ endblock }}
+
+
